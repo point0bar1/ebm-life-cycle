@@ -1,5 +1,5 @@
-tensorflow
-tensorflow_datasets
-tensorflow_addons
-matplotlib
-google-cloud-storage
+tensorflow==2.8.0
+tensorflow_datasets==4.5.2
+tensorflow_addons==0.16.1
+matplotlib==3.5.2
+google-cloud-storage==2.3.0
