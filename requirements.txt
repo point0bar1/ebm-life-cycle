@@ -1,0 +1,5 @@
+tensorflow
+tensorflow_datasets
+tensorflow_addons
+matplotlib
+google-cloud-storage
