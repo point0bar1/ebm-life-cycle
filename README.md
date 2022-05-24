@@ -62,7 +62,7 @@ We use FID score and visualizations to evaluate realism of longrun samples. Assu
 | - | - | - | - | - |
 | CIFAR-10 32x32| 49.2  | 51.7 | <img src="./examples/cifar10_longrun_100K.png" alt="drawing" width="90"/> | <img src="./examples/cifar10_longrun_1M.png" alt="drawing" width="90"/> |
 | Celeb A 64x64| 37.4 | 45.9 | <img src="./examples/celeb_a_longrun_100K.png" alt="drawing" width="90"/> | <img src="./examples/celeb_a_longrun_1M.png" alt="drawing" width="90"/> |
-| ImageNet 128x128 | 82.3 | 77.8 | <img src="./examples/imagenet_longrun_100K.png" alt="drawing" width="90"/> | <img src="./examples/imagenet_longrun_1M.png" alt="drawing" width="90"/> |
+| ImageNet 64x64 | 82.3 | 77.8 | <img src="./examples/imagenet_longrun_100K.png" alt="drawing" width="90"/> | <img src="./examples/imagenet_longrun_1M.png" alt="drawing" width="90"/> |
 
 ## Generator Networks for Midrun and Longrun Learning
 
@@ -87,6 +87,10 @@ All files can be run on either CPU, GPU or TPU. Data parallelism will automatica
 ## Data Access
 
 Please note that only CIFAR-10 can be automatically downloaded in Tensorflow. Celeb A and ImageNet must be manually downloaded and prepared in TFDS (Tensorflow Data Set) format. 
+
+## Acknowledgements
+
+This research was supported with Cloud TPUs from Google's TPU Research Cloud (TRC).
 
 ## Contact
 
