@@ -19,11 +19,15 @@ config = {
   "random_crop": False,
 
   # exp params
-  "exp_type": "folder",
+  "exp_type": "single",
   "num_fid_rounds": 520,
   "batch_size": 96,
   "image_dims": [128, 128, 3],
   "split": "train",
+
+  # ebm and gen files (only used if exp_type="single")
+  "ebm_weights": "",
+  "gen_weights": "",
 
   # ckpt folder (only used if exp_type="folder")
   "ckpt_folder": '', # folder for trained checkpoint
