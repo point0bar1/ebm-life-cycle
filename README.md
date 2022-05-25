@@ -4,8 +4,9 @@ This repo will replicate the synthesis, defense, and density modeling experiment
 
 *EBM Life Cycle: MCMC Strategies for Synthesis, Defense, and Density Modeling*  
 Mitch Hill\*, Jonathan Mitchell\*, Chu Chen, Yuan Du, Mubarak Shah, Song-Chun Zhu (\*eq. contrib.)
+https://arxiv.org/pdf/2205.12243.pdf
 
-Check back soon for arXiv link. All experiments use Tensorflow 2.
+All experiments use Tensorflow 2.
 
 ## Setup
 
